@@ -25,11 +25,12 @@
   height: 426px;
   border-radius: 10px;
   box-shadow: 3px 3px #474545;
+  margin-left: 400px;
 }
 
 .container {
-  width: 635px;
-  margin: 0 auto 0 auto;
+  width: 100%;
+  margin: auto 0 auto;
   position: relative;
 }
 
@@ -72,6 +73,7 @@ i:hover {
 }
 
 h3 {
+  font-size: 25px;
   color: white;
   text-shadow: 2px 2px 4px #000000;
 }
@@ -80,11 +82,20 @@ p {
   color: white;
   text-shadow: 2px 2px 4px #000000;
 }
-/* @media (max-width: 768px) {
-  .container {
+
+@media (max-width: 768px) {
+  /* .container {
     width: 50%;
+  } */
+
+  .slider img {
+    width: 320px;
+    height: 208px;
+    border-radius: 10px;
+    box-shadow: 3px 3px #474545;
   }
-  #nav li i {
+
+  /* #nav li i {
     display: none;
-  }
-} */
+  } */
+}
