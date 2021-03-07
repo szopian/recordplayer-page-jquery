@@ -6,7 +6,6 @@
 .hero {
   background-image: url("/images/bgimg2.jpg");
   background-color: #8d8a8a;
-  height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -25,13 +24,13 @@
   height: 426px;
   border-radius: 10px;
   box-shadow: 3px 3px #474545;
-  margin-left: 400px;
 }
 
 .container {
-  width: 100%;
-  margin: auto 0 auto;
+  width: 635px;
+  padding: 0 auto 0 auto;
   position: relative;
+  left: 28%;
 }
 
 #nav {
@@ -88,12 +87,12 @@ p {
     width: 50%;
   } */
 
-  .slider img {
+  /* .slider img {
     width: 320px;
     height: 208px;
     border-radius: 10px;
     box-shadow: 3px 3px #474545;
-  }
+  } */
 
   /* #nav li i {
     display: none;
